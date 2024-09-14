@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add custom styles here if needed */
+/* Example global styles, adjust as needed */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-geist-sans), sans-serif;
+    background-color: #f9fafb;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: #1a202c;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  /* Additional global styles can be added here */
